@@ -1,0 +1,46 @@
+.real >a{
+    font-size: 3rem;
+    color: transparent;
+    background-image: linear-gradient(#d827d8,#118df3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 60px;
+    text-align: center;
+}
+.thanhcongcu{
+    background: #118df3;
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+}
+.thanhcongcu li{
+    display: inline-block;
+}
+.thanhcongcu a{
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.thanhcongcu a:hover{
+    color:blue;
+}
+p{
+    text-align: justify;
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white
+}
+html   {
+    background-image: url(./bg/tech.jpg);
+    background-size: cover;
+}
